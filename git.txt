@@ -1,0 +1,36 @@
+Check status (xem những cái gì đang và đã được chỉnh sửa)
+--> git status
+
+Commit (commit mấy cái đã làm lên git cái 'abc' thì thay bằng 1 cái từ nào dó)
+--> git commit -m 'abc'
+VD: update file index.html 
+--> git commit -m update_index
+
+Add (thêm cái file đã chỉnh và commit lên git)
+--> git add .
+*Lưu ý: '.' --> thêm hết các file, nếu add file chỉ định thì copy cái gợi ý trong terminal vào.
+
+Push (push lên git)
+--> git push origin 'name'
+* Vì em đang làm trên nhánh dev1 nên name là dev1
+
+Check list branch 
+--> git branch | git branch -a
+* Em xem coi có các branch nào, ví dụ em làm chức năng branch dev1 bạn em dev2 và em cần mấy cái bạn em làm thì em phải check xem
+em có thể truy cập vào dev2 không.
+* Nếu em git branch nó ko ra dev2 thì dùng
+--> git fetch 
+--> git branch
+* Nó sẽ ra list đẩy đủ branch.
+
+Pull (pull code về)
+--> git pull origin 'name'
+* Em pull branch em làm là dev1. bạn em thì cứ thay cái name thành branch của nó.
+
+Merge (Gôm code)
+lệnh này anh chưa dùng hong biết kkk
+
+==> Có đi làm thì em cũng quay quẩn các cái trên thôi merge thì ít lắm. Coi qua cho biết là đc.
+
+git init -> git remote add origin <link github> -> git add .
+-> git commit -m <name> -> git push origin master/branch
